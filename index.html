@@ -1,29 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>Scrolling Nav - Start Bootstrap Template</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
 </head>
 
@@ -31,97 +30,207 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-            </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Finding Gentrification</a>
+      </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#results">Results</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#phi">Case Study: Philidelphia</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#port">Case Study: Portland</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#more">Learn More</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+
+  <div id="bg">
+    <img src="bg.png" alt="">
+  </div>
+
+
+  <!-- Intro Section -->
+  <section id="about" class="intro-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <h1 color = "#8C8786"><strong>Finding Gentrification</strong></h1>
+          <h5><strong>An independent big data project:</strong></h5>
+          <p>Using housing data to develop an accurate model for quantifying gentrification across the US. Using this model, commuity leaders could be able to identify and act upon gentrification before and as it occurs rather than after the fact.</p>
+          <a class="btn btn-default page-scroll" href="#results" >Checkout Our Results</a>
+
         </div>
-        <!-- /.container -->
-    </nav>
+      </div>
+    </div>
+  </section>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
-                </div>
+  <!-- About Section -->
+  <section id="results" class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>National Map</h1>
+          <p></p>
+          <h5>Gentrification Nationwide</h5>
+          <p>We used housing website <a href="https://www.zillow.com/">Zillow's</a> housing value tracking feature to track housing values in areas across the country. You can find the exact data set we used <a href="https://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv">here.</a> You can learn about the details of our project <a href="https://drive.google.com/open?id=0B3GzoduBfLguVllfdXdTNXlsanc">here.</a> And if you have any questions, comments, feedback, or think our data is wildly off, you can contact us at <a href="mailto:eppingere@winchesterthurston.org">eppingere@winchesterthurston.org</a></p>
+          <p>Below is a map of our results. Feel free to explore your hometown and compare our results to your observations. The darker red is more gentrified and the darker green is not/less gentrified. Note: Brooklyn and Queens have had their Zip Codes changed which makes it quite dificult to track.</p>
+          <p></p>
+          <center>
+            <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'>
+            </script>
+            <div class='tableauPlaceholder' style='width: 982px; height: 600px;'>
+              <noscript>
+                <a href='#'>
+                  <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GentrificationIndexNationalDatabyZIPCode&#47;Sheet1&#47;1_rss.png' style='border: none' />
+                </a>
+              </noscript>
+              <object class='tableauViz' width='1000' height='600' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='site_root' value='' />
+                <param name='name' value='GentrificationIndexNationalDatabyZIPCode&#47;Sheet1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='no' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GentrificationIndexNationalDatabyZIPCode&#47;Sheet1&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='no' />
+                <param name='display_overlay' value='no' />
+                <param name='display_count' value='no' />
+                <param name='showTabs' value='y' />
+              </object>
             </div>
+          </center>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
-                </div>
-            </div>
+  <!-- Services Section -->
+  <section id="phi" class="services-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Examination of Philidelphia</h1>
+          <p></p>
+          <h5>Gentrification in Queen Village</h5>
+          <p>We then looked to confirm that gentrification was indeed occuring in this Queen Village (the darkest red area in the center) by reffering to articles in local news papers. We found an <a href = "https://phillydeclaration.org/2014/12/06/a-history-of-gentrification-in-philadelphia/">article</a> in the Philly Declaration which reffered to the area as a “gentrification project.” </p>
+          <p></p>
+          <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'>
+          </script>
+          <div class='tableauPlaceholder' style='width: 982px; height: 600px;'>
+            <noscript><a href='#'>
+              <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GentrificationIndexFocusonPhilidelphia&#47;Sheet1&#47;1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz' width='1000' height='600' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name' value='GentrificationIndexFocusonPhilidelphia&#47;Sheet1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GentrificationIndexFocusonPhilidelphia&#47;Sheet1&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='no' />
+            <param name='showTabs' value='y' />
+          </object>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Contact Section -->
+<section id="port" class="contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Examination of Portland</h1>
+        <p></p>
+        <h5>Gentrification in Ladd's Addition</h5>
+        <p>It is widely known at this point that Portland is the posterchild for gentrification. And at the heart of this is the neighborhood of <i>Ladd's Addition</i> (dark red in the center of the city). Like Philidelphia, we wanted to confirm these results with a local paper's first-hand account, which we did in the <i><a href = "http://projects.oregonlive.com/maps/gentrification/">The Origonian</a>.</i></p>
+        <p></p>
+        <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'>
+        </script><div class='tableauPlaceholder' style='width: 982px; height: 600px;'>
+          <noscript><a href='#'>
+            <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GentrificationIndexFocusonPortland&#47;Sheet1&#47;1_rss.png' style='border: none' />
+          </a>
+        </noscript>
+        <object class='tableauViz' width='1000' height='600' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='site_root' value='' />
+          <param name='name' value='GentrificationIndexFocusonPortland&#47;Sheet1' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GentrificationIndexFocusonPortland&#47;Sheet1&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='no' />
+          <param name='showTabs' value='y' />
+        </object>
+      </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+  </div>
+</div>
+</section>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<section id="more" class="services-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>How Does this Model Work?</h1>
+        <img src = "graphic.png" style="height:600px;width1000px">
+      </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    </div>
+  </div>
+</div>
+</section>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 
 </body>
 
